@@ -1,0 +1,35 @@
+body {
+    background: url(teamgen-bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+    /*background: linear-gradient(to bottom, #342D26 10%, #6b4f52 100%);*/
+    background-color: #dde0e3;
+    color: #2a4a40;
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+
+.navtext {
+    margin-top: 5px;
+}
+
+
+.info {
+    border-style: solid;
+    border-color: #b8bdb9;
+    border-width: 1px;
+    margin-bottom: -21px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 3px;
+}
+
+.card-footer {
+    background-color: #6F8F7E;
+}
