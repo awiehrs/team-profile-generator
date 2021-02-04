@@ -1,5 +1,5 @@
 body {
-    background: url(teamgen-bg.png) no-repeat center center fixed; 
+    background: url(teamgen-bg-1.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,14 +9,14 @@ body {
 
 .nav {
     /*background: linear-gradient(to bottom, #342D26 10%, #6b4f52 100%);*/
-    background-color: #dde0e3;
-    color: #2a4a40;
-    font-family: 'Nanum Myeongjo', serif;
+    color: #065a81;
+    font-family: 'Raleway', sans-serif;
     
 }
 
 .navtext {
-    margin-top: 5px;
+    margin-top: 20px;
+    font-size: 4rem;
 }
 
 
@@ -31,5 +31,5 @@ body {
 }
 
 .card-footer {
-    background-color: #6F8F7E;
+    background-color: #305a6d;
 }
