@@ -1,17 +1,14 @@
 const fs = require("fs");
 const inquire = require("inquirer");
-const manager = require("./templates/manager");
-const employee = require("./templates/employee")
-const intern = require("./templates/intern");
-const engineer = require("./templates/engineer");
+const manager = require("./lib/manager");
+const intern = require("./lib/intern");
+const engineer = require("./lib/engineer");
 const cheerio = require("cheerio");
 const open = require("open");
 
 let empID = 0;
 
 let employees = [];
-
-
 
 
 const loopQuestion = [
@@ -79,7 +76,6 @@ const questionList = [
 
 function collectEmployee(retFunction) {
 
-
     inquire
         .prompt(questionList)
         .then(function (response) {
@@ -115,7 +111,7 @@ function addEmployee() {
 }
 
 function writeHTMLFile() {
-    let profileHTML = fs.readFileSync("./templates/index.html", "utf8", function(err) {
+    let profileHTML = fs.readFileSync("./src/index.html", "utf8", function(err) {
         if (err) 
             console.log(err);
     });
@@ -137,11 +133,11 @@ function writeHTMLFile() {
         $("#teamCards").append(output);
     });
 
-    fs.writeFile("./outputs/team_output.html", $.html(), function(err){
+    fs.writeFile("./outputs/Team-Profiles.html", $.html(), function(err){
         if (err)
             console.log(err);
         
-        openTeamFile("./outputs/team_output.html")
+        openTeamFile("./outputs/Team-Profiles.html")
     });
 }
 
