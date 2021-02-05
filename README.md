@@ -1,15 +1,14 @@
 <p align="center">
   <img src="assets/readme-header.png">
   </p>
-  
-  # Team Profile Generator
+
   ![GitHub](https://img.shields.io/badge/license-MIT-blue?style=plastic)
   
   ---
 
   ## **Description**
     
-  Every good project has a team working together behind it. This Command Line Interface app aims to be a useful tool for teams to keep track of contact information and roles for each team-member to easily access in one location.  
+  Every good project has a team working together behind it. This Command Line Interface app aims to be a useful tool for teams to keep track of contact information and roles for each team-member to easily access in one location. The design inspiration comes from a desire for a clean space, and the reminder that groups shine best when teamwork is implemented and each team member gets to exhibit their skills, much like geese in an alternating flying pattern.
 
   The CLI keeps it simple for the user to just answer a few information prompts, and the app does the rest. Teams will have a sleek, useful page in no time.
   
