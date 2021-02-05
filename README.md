@@ -61,7 +61,6 @@
 
   ## Questions 
   
-  ![GitHub Logo](/assets/github-icon.png)  
   [GitHub](https://www.github.com/awiehrs)
     
   
