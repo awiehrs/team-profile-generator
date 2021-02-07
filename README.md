@@ -32,7 +32,7 @@
   The user should install the following in their terminal in order for the application to run properly:  
 
   - npm install 
-  - npm intall inquirer
+  - npm install inquirer
   - npm install cheerio
   - npm install open
   
@@ -47,7 +47,7 @@
   Demo Video: [https://drive.google.com/file/d/1VLNfxSN_ahHg1eBlQnavamKWFup35U_Y/view]  
 
   Screenshot of demo file:  
-  
+
   ![screenshots](assets/screenshot.png)
   
   ---
