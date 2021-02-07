@@ -11,6 +11,7 @@ let empID = 0;
 let employees = [];
 
 
+
 const loopQuestion = [
     {
         name: "empAdd",
@@ -161,7 +162,7 @@ function generateManagerCard(name, id, email, officeNumber) {
             <div class="info">Office Number: ${officeNumber}</div><br>
         </p>
         </div>
-        <div class="card-footer">
+        <div class="card-footer mgr">
         <small class="text-muted"></small>
         </div>
     </div>
@@ -182,7 +183,7 @@ function generateInternCard(name, id, email, school) {
             <div class="info">School: ${school}</div><br>
         </p>
         </div>
-        <div class="card-footer">
+        <div class="card-footer itn">
         <small class="text-muted"></small>
         </div>
     </div>
@@ -204,7 +205,7 @@ function generateEngineerCard(name, id, email, github) {
             <div class="info">GitHub:  <a href="https://github.com/${github}" target="_blank" rel="noopener noreferrer">${github}</a></div><br>
         </p>
         </div>
-        <div class="card-footer">
+        <div class="card-footer egnr">
         <small class="text-muted"></small>
         </div>
     </div>

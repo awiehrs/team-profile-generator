@@ -29,19 +29,32 @@
   
   ## **Installation**
   
-  npm install, npm inquirer, npm cheerio
+  The user should install the following in their terminal in order for the application to run properly:  
+
+  - npm install 
+  - npm intall inquirer
+  - npm install cheerio
+  - npm install open
   
   ---
   
   ## **Usage**
   
-  instructions
+  Upon installation, the user will open the application by entering 'node index.js' in the terminal. This will trigger a prompt & response form, where the user should answer the prompts accordingly. Once the prompt is complete, an html file titled 'Team-Profiles.html' is saved in the 'outputs' directory. This html file will have all the information that was put in the prompt displayed on an attractive page in the browser.  
+
+  The demo video linked below walks through the installation process, running tests, and using the application.  
+
+  Demo Video: [https://drive.google.com/file/d/1VLNfxSN_ahHg1eBlQnavamKWFup35U_Y/view]  
+
+  Screenshot of demo file:  
+  
+  ![screenshots](assets/screenshot.png)
   
   ---
   
   ## **Tests**
   
-  Tests
+  npm jest was used to test this application. All tests have passed. 
   
   ---
 

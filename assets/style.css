@@ -30,6 +30,14 @@ body {
     padding: 3px;
 }
 
-.card-footer {
+.egnr {
     background-color: #305a6d;
+}
+
+.mgr {
+    background-color: #df711f;
+}
+
+.itn {
+    background-color: #d7767f;
 }
